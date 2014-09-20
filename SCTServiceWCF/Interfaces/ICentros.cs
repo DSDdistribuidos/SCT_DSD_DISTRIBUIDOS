@@ -7,11 +7,14 @@ using System.Text;
 
 namespace SCTServiceWCF.Servicios
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "ICentros" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
     public interface ICentros
     {
         [OperationContract]
-        void DoWork();
+        Centros CrearCentro(string descripcion, int empresa);
+        [OperationContract]
+        Centros ObtenerCentro(int codigo);
+        [OperationContract]
+        List<Centros> ListarCentro();
     }
 }
