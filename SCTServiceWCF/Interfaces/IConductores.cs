@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using SCTServiceWCF.Dominio;
 
 namespace SCTServiceWCF.Servicios
 {
@@ -12,6 +13,6 @@ namespace SCTServiceWCF.Servicios
     public interface IConductores
     {
         [OperationContract]
-        void DoWork();
+        Conductor CrearConductor(string nombres_apellidos, string dni, string sexo, string sede, string condicion, string cargo, string licencia, int empresa );
     }
 }

@@ -61,6 +61,7 @@
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Empresa.hbm.xml" />
     <Content Include="Dominio\Centro.hbm.xml" />
+    <Content Include="Dominio\Conductor.hbm.xml" />
     <Content Include="Dominio\Reporte.hbm.xml" />
     <Content Include="Servicios\Centros.svc" />
     <Content Include="Servicios\Conductores.svc" />
@@ -85,6 +86,7 @@
     <Compile Include="Dominio\Vehiculo.cs" />
     <Compile Include="Interfaces\IReportes.cs" />
     <Compile Include="Persistencia\BaseDAO.cs" />
+    <Compile Include="Persistencia\ConductorDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Persistencia\EmpresaDAO.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />

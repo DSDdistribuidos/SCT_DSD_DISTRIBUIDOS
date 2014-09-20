@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="SCTServiceWCF"
+                   namespace="SCTServiceWCF.Dominio"
+                   default-lazy="false">
+  <class name="Conductor" table="T_SCT_CHOFERES">
+    <id name="ID_CHOFER" column="ID_CHOFER">
+      <generator class="native" />
+    </id>
+    <property name="NOMBRES_APELLIDOS" column="NOMBRES_APELLIDOS" />
+    <property name="DNI" column="DNI" />
+    <property name="SEXO" column="SEXO" />
+    <property name="SEDE" column="SEDE" />
+    <property name="CONDICION" column="CONDICION" />
+    <property name="CARGO" column="CARGO" />
+    <property name="LICENCIA" column="LICENCIA" />
+    <many-to-one name="EMPRESA" column="ID_EMPRESA" />
+  </class>
+</hibernate-mapping>
