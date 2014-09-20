@@ -25,10 +25,10 @@ namespace SCTServiceWCF.Servicios
             }
         }
 
-        //public List<Reportes> ListarVentas()
-        //{
-        //    return ReporteDAO.ListarTodos().ToList();
-        //}
+        public List<Reporte> ListarVentas()
+        {
+            return ReporteDAO.ListarTodos().ToList();
+        }
     } 
 }
 
