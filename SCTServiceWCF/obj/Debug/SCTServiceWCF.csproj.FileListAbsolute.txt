@@ -8,3 +8,6 @@ C:\Users\jmallqui.NTCIP\Google Drive\201402\DSD\proyecto\SCT_DSD_DISTRIBUIDOS\SC
 C:\Users\LT-168\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
 C:\Users\LT-168\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
 C:\Users\LT-168\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+C:\Users\AMH\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\AMH\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+C:\Users\AMH\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb

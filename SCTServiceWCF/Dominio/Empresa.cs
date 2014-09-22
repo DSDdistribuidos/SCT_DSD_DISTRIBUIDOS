@@ -12,7 +12,7 @@ namespace SCTServiceWCF.Dominio
         //EMPRESA
         //RUC
         //TELEFONO
-        //DIRECCION
+        //DIRECCION        
         [DataMember]
         public int ID_EMPRESA { get; set; }
         [DataMember]
@@ -23,7 +23,9 @@ namespace SCTServiceWCF.Dominio
         public string TELEFONO { get; set; }
         [DataMember]
         public string DIRECCION { get; set; }
-        
+        [DataMember]
+        public Empresa LISTA { get; set; }
+
 
     }
 }
