@@ -28,3 +28,13 @@ J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
 J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
 J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.dll
 J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.pdb
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\NHibernate.dll
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.pdb

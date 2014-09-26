@@ -61,9 +61,13 @@
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Empresa.hbm.xml" />
     <Content Include="Dominio\Conductor.hbm.xml" />
+    <EmbeddedResource Include="Dominio\Tarifa.hbm.xml" />
+    <Content Include="Dominio\ReporteVenta.hbm.xml" />
     <Content Include="Servicios\Conductores.svc" />
     <Content Include="Servicios\ControlBoletos.svc" />
     <Content Include="Servicios\Empresas.svc" />
+    <Content Include="Servicios\ReporteVentas.svc" />
+    <Content Include="Servicios\Tarifa.svc" />
     <Content Include="Servicios\Vehiculos.svc" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -76,13 +80,19 @@
   <ItemGroup>
     <Compile Include="Dominio\Conductor.cs" />
     <Compile Include="Dominio\Empresa.cs" />
+    <Compile Include="Dominio\ReporteVenta.cs" />
+    <Compile Include="Dominio\Tarifa.cs" />
     <Compile Include="Dominio\Tickets.cs" />
     <Compile Include="Dominio\Vehiculo.cs" />
+    <Compile Include="Interfaces\IReporteVenta.cs" />
+    <Compile Include="Interfaces\ITarifa.cs" />
     <Compile Include="Persistencia\BaseDAO.cs" />
     <Compile Include="Persistencia\ConductorDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Persistencia\EmpresaDAO.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />
+    <Compile Include="Persistencia\ReporteVentaDAO.cs" />
+    <Compile Include="Persistencia\TarifaDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\Conductores.svc.cs">
       <DependentUpon>Conductores.svc</DependentUpon>
@@ -97,6 +107,12 @@
     <Compile Include="Interfaces\IControlBoletos.cs" />
     <Compile Include="Interfaces\IEmpresas.cs" />
     <Compile Include="Interfaces\IVehiculos.cs" />
+    <Compile Include="Servicios\ReporteVentas.svc.cs">
+      <DependentUpon>ReporteVentas.svc</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios\Tarifa.svc.cs">
+      <DependentUpon>Tarifa.svc</DependentUpon>
+    </Compile>
     <Compile Include="Servicios\Vehiculos.svc.cs">
       <DependentUpon>Vehiculos.svc</DependentUpon>
     </Compile>
