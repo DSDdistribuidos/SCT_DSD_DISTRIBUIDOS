@@ -15,7 +15,7 @@ namespace SCTServiceWCF.Servicios
         [OperationContract]
         Empresa CrearEmpresa(string empresa, string ruc, string telefono, string direccion);
         [OperationContract]
-        Empresa ObtenerEmpresa(int codigo, string empresa, string ruc, string telefono, string direccion);
+        Empresa ObtenerEmpresa(int codigo);
         [OperationContract]
         Empresa ModificarEmpresa(int codigo, string empresa, string ruc, string telefono, string direccion);
         [OperationContract]

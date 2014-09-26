@@ -60,14 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Dominio\Empresa.hbm.xml" />
-    <Content Include="Dominio\Centro.hbm.xml" />
     <Content Include="Dominio\Conductor.hbm.xml" />
-    <Content Include="Dominio\Reporte.hbm.xml" />
-    <Content Include="Servicios\Centros.svc" />
     <Content Include="Servicios\Conductores.svc" />
     <Content Include="Servicios\ControlBoletos.svc" />
     <Content Include="Servicios\Empresas.svc" />
-    <Content Include="Servicios\Reporte.svc" />
     <Content Include="Servicios\Vehiculos.svc" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -78,23 +74,16 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Dominio\Centro.cs" />
     <Compile Include="Dominio\Conductor.cs" />
     <Compile Include="Dominio\Empresa.cs" />
-    <Compile Include="Dominio\Reporte.cs" />
     <Compile Include="Dominio\Tickets.cs" />
     <Compile Include="Dominio\Vehiculo.cs" />
-    <Compile Include="Interfaces\IReportes.cs" />
     <Compile Include="Persistencia\BaseDAO.cs" />
     <Compile Include="Persistencia\ConductorDAO.cs" />
     <Compile Include="Persistencia\ConexionUtil.cs" />
     <Compile Include="Persistencia\EmpresaDAO.cs" />
     <Compile Include="Persistencia\NHibernateHelper.cs" />
-    <Compile Include="Persistencia\ReporteDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Servicios\Centros.svc.cs">
-      <DependentUpon>Centros.svc</DependentUpon>
-    </Compile>
     <Compile Include="Servicios\Conductores.svc.cs">
       <DependentUpon>Conductores.svc</DependentUpon>
     </Compile>
@@ -104,14 +93,10 @@
     <Compile Include="Servicios\Empresas.svc.cs">
       <DependentUpon>Empresas.svc</DependentUpon>
     </Compile>
-    <Compile Include="Interfaces\ICentros.cs" />
     <Compile Include="Interfaces\IConductores.cs" />
     <Compile Include="Interfaces\IControlBoletos.cs" />
     <Compile Include="Interfaces\IEmpresas.cs" />
     <Compile Include="Interfaces\IVehiculos.cs" />
-    <Compile Include="Servicios\Reporte.svc.cs">
-      <DependentUpon>Reporte.svc</DependentUpon>
-    </Compile>
     <Compile Include="Servicios\Vehiculos.svc.cs">
       <DependentUpon>Vehiculos.svc</DependentUpon>
     </Compile>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7f4c45b8-a48d-47d6-a854-79bfb201e861" name="jmallqui@JMALLQUI 2014-09-25 21:33:24" runUser="NTCIP\jmallqui" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Configuración de pruebas predeterminada" id="497921a5-47af-4f35-814c-4ebd2656673d">
+    <Deployment runDeploymentRoot="jmallqui_JMALLQUI 2014-09-25 21_33_24">
+      <DeploymentItem filename="J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-09-25T21:33:24.5182368-05:00" queuing="2014-09-25T21:33:25.3377184-05:00" start="2014-09-25T21:33:25.3617864-05:00" finish="2014-09-25T21:33:26.3760377-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EliminarEmpresaTest" storage="j:\sct_dsd_distribuidos\testempresaservice\bin\debug\testempresaservice.dll" id="37203b83-3183-1995-22c7-2e48350e4caf">
+      <Execution id="bd482bcc-d9a8-4440-a395-d0bbc9de81a6" />
+      <TestMethod codeBase="J:/SCT_DSD_DISTRIBUIDOS/TestEmpresaService/bin/Debug/TestEmpresaService.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestEmpresaService.UnitTest1, TestEmpresaService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EliminarEmpresaTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="37203b83-3183-1995-22c7-2e48350e4caf" executionId="bd482bcc-d9a8-4440-a395-d0bbc9de81a6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bd482bcc-d9a8-4440-a395-d0bbc9de81a6" testId="37203b83-3183-1995-22c7-2e48350e4caf" testName="EliminarEmpresaTest" computerName="JMALLQUI" duration="00:00:00.7655101" startTime="2014-09-25T21:33:25.4118228-05:00" endTime="2014-09-25T21:33:26.3417488-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd482bcc-d9a8-4440-a395-d0bbc9de81a6">
+      <Output>
+        <StdOut>NHibernate: SELECT empresa0_.ID_EMPRESA as ID1_0_0_, empresa0_.EMPRESA as EMPRESA0_0_, empresa0_.RUC as RUC0_0_, empresa0_.TELEFONO as TELEFONO0_0_, empresa0_.DIRECCION as DIRECCION0_0_ FROM T_SCT_EMPRESA empresa0_ WHERE empresa0_.ID_EMPRESA=@p0;@p0 = 33 [Type: Int32 (0)]
+NHibernate: SELECT empresa0_.ID_EMPRESA as ID1_0_0_, empresa0_.EMPRESA as EMPRESA0_0_, empresa0_.RUC as RUC0_0_, empresa0_.TELEFONO as TELEFONO0_0_, empresa0_.DIRECCION as DIRECCION0_0_ FROM T_SCT_EMPRESA empresa0_ WHERE empresa0_.ID_EMPRESA=@p0;@p0 = 33 [Type: Int32 (0)]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

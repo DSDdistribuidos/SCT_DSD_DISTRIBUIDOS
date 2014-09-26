@@ -11,3 +11,17 @@ C:\Users\LT-168\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SC
 C:\Users\AMH\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
 C:\Users\AMH\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
 C:\Users\AMH\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.pdb
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\Iesi.Collections.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll
+J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.pdb
+J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\Iesi.Collections.dll
+J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
+J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+J:\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb

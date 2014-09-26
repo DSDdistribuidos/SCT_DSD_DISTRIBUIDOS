@@ -8,3 +8,23 @@ D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-m
 D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\NHibernate.dll
 D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\Iesi.Collections.dll
 D:\UPC\EPE\Ciclo 06\Desarrollo para Sistemas Distribuidos\SCT_DSD_DISTRIBUIDOS-master\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\NHibernate.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+C:\Users\jfernandez\Documents\GitHub\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.pdb
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll.config
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.dll
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\TestEmpresaService.pdb
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.dll
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\NHibernate.dll
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\Iesi.Collections.dll
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\bin\Debug\SCTServiceWCF.pdb
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.csprojResolveAssemblyReference.cache
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.dll
+J:\SCT_DSD_DISTRIBUIDOS\TestEmpresaService\obj\Debug\TestEmpresaService.pdb
