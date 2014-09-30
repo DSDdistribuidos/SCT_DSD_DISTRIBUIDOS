@@ -7,9 +7,9 @@ using System.ServiceModel.Web;
 using System.Text;
 using SCTServiceWCF.Persistencia;
 using SCTServiceWCF.Dominio;
-using SCTServiceWCF.Servicios;
 
-namespace SCTServiceWCF.Persistencia
+
+namespace SCTServiceWCF.Servicios
 {
     public class Centros : ICentros
     {

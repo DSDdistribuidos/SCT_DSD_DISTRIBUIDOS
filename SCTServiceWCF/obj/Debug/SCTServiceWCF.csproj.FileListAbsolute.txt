@@ -31,3 +31,10 @@ C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\I
 C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
 C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
 C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.pdb
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\Iesi.Collections.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
