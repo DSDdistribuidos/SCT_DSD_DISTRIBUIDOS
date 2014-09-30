@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using SCTServiceWCF.Dominio;
 
 namespace SCTServiceWCF.Servicios
 {
@@ -12,6 +13,16 @@ namespace SCTServiceWCF.Servicios
     public interface IVehiculos
     {
         [OperationContract]
-        void DoWork();
+        Vehiculo CrearVehiculo(int ID_VEHICULO, string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, int ID_EMPRESA);
+        [OperationContract]
+        Vehiculo ObtenerVehiculo(int ID_VEHICULO);
+        [OperationContract]
+        Vehiculo ModificarVehiculo(int ID_VEHICULO, string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, int id_empresa);
+        [OperationContract]
+        List<Vehiculo> ListarVehiculo();
+        [OperationContract]
+        Vehiculo EliminarVehiculo(int ID_VEHICULO, string PLACA, string MODELO, string MARCA, string ANNIO_FABRICACION, string NRO_UNIDAD, int id_empresa, int FLAG_ANULA);
+
+
     }
 }

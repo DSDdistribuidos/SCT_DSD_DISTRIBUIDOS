@@ -99,6 +99,7 @@
     <Compile Include="Persistencia\NHibernateHelper.cs" />
     <Compile Include="Persistencia\ReporteVentaDAO.cs" />
     <Compile Include="Persistencia\TarifaDAO.cs" />
+    <Compile Include="Persistencia\VehiculoDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\Centros.svc.cs">
       <DependentUpon>Centros.svc</DependentUpon>
