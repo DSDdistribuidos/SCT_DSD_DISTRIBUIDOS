@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿<%@ ServiceHost Language="C#" Debug="true" Service="SCTServiceWCF.Persistencia.Centros" CodeBehind="Centros.svc.cs" %>
+=======
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SCTServiceWCF.Servicios.Centros" CodeBehind="Centros.svc.cs" %>
+>>>>>>> origin/master
 =======
 ﻿<%@ ServiceHost Language="C#" Debug="true" Service="SCTServiceWCF.Servicios.Centros" CodeBehind="Centros.svc.cs" %>
 >>>>>>> origin/master

@@ -5,7 +5,10 @@ using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SCTServiceWCF.Dominio;
 using SCTServiceWCF.Persistencia;
+<<<<<<< HEAD
 using SCTServiceWCF.Servicios;
+=======
+>>>>>>> origin/master
 
 namespace TestEmpresaService
 {

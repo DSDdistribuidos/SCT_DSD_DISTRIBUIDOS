@@ -4,7 +4,10 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 using System.ServiceModel.Web;
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 using System.Text;
@@ -18,6 +21,10 @@ namespace SCTServiceWCF.Servicios
     {
         #region Miembros de ICentros
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 =======
 
 >>>>>>> origin/master
@@ -33,7 +40,11 @@ namespace SCTServiceWCF.Servicios
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         public Centro CrearCentro(string descripcion, int empresa)
+=======
+        public Dominio.Centro CrearCentro(string descripcion, int empresa)
+>>>>>>> origin/master
 =======
         public Dominio.Centro CrearCentro(string descripcion, int empresa)
 >>>>>>> origin/master
@@ -42,6 +53,10 @@ namespace SCTServiceWCF.Servicios
             {
                 DESCRIPCION = descripcion,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                //EMPRESA = Empresa
+>>>>>>> origin/master
 =======
                 //EMPRESA = Empresa
 >>>>>>> origin/master
@@ -50,7 +65,11 @@ namespace SCTServiceWCF.Servicios
         
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         public Centro ObtenerCentro(int codigo)
+=======
+        public Dominio.Centro ObtenerCentro(int codigo)
+>>>>>>> origin/master
 =======
         public Dominio.Centro ObtenerCentro(int codigo)
 >>>>>>> origin/master

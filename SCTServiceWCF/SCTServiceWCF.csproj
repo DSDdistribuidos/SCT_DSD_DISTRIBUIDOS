@@ -21,11 +21,17 @@
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/master
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -102,7 +108,11 @@
     <Compile Include="Dominio\Tickets.cs" />
     <Compile Include="Dominio\Vehiculo.cs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Include="Interfaces\ICentro.cs" />
+=======
+    <Compile Include="Interfaces\ICentros.cs" />
+>>>>>>> origin/master
 =======
     <Compile Include="Interfaces\ICentros.cs" />
 >>>>>>> origin/master
