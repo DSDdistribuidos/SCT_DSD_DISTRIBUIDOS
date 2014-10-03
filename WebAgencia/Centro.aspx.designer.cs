@@ -10,6 +10,6 @@
 namespace WebAgencia {
     
     
-    public partial class Centro {
+    public partial class Tarifa {
     }
 }

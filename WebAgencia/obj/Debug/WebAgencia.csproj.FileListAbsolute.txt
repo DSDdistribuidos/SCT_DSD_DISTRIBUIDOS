@@ -6,3 +6,12 @@ G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\
 G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\bin\WebAgencia.pdb
 G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\obj\Debug\WebAgencia.dll
 G:\Juan Mallqui Proyectos\JUAN MALLQUI\UPC\DSD\WebAgencia\WebAgencia\WebAgencia\obj\Debug\WebAgencia.pdb
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\bin\WebAgencia.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\bin\WebAgencia.pdb
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.pdb
+F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\bin\WebAgencia.dll
+F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\bin\WebAgencia.pdb
+F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.csprojResolveAssemblyReference.cache
+F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.dll
+F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.pdb

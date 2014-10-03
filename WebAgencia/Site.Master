@@ -285,7 +285,11 @@
                                             <i class="fa fa-gear"></i>
                                             Centros</a>
                                     </li>
-                                   
+                                    <li>
+                                        <a id="A1" runat="server" href="Tarifa.aspx">
+                                            <i class="fa fa-gear"></i>
+                                            Tarifa</a>
+                                    </li>
                                 </ul>
                                 </li>
                            

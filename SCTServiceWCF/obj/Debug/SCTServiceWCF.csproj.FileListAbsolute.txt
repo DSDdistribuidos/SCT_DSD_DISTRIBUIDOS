@@ -31,3 +31,27 @@ C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\I
 C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
 C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
 C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\SCTServiceWCF.pdb
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\Iesi.Collections.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\bin\NHibernate.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+C:\Users\W7\Desktop\distribuidos\SCT_DSD_DISTRIBUIDOS\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+<<<<<<< HEAD
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\SCTServiceWCF.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\SCTServiceWCF.pdb
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\Iesi.Collections.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\NHibernate.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+E:\SCT_DSD_DISTRIBUIDOS-master\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+F:\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\SCTServiceWCF.dll
+F:\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\SCTServiceWCF.pdb
+F:\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\Iesi.Collections.dll
+F:\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\bin\NHibernate.dll
+F:\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.csprojResolveAssemblyReference.cache
+F:\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.dll
+F:\SCT_DSD_DISTRIBUIDOS-master\SCTServiceWCF\obj\Debug\SCTServiceWCF.pdb
+=======
+>>>>>>> origin/master
