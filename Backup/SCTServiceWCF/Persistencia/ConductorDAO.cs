@@ -7,7 +7,7 @@ using SCTServiceWCF.Dominio;
 
 namespace SCTServiceWCF.Persistencia
 {
-    public class CentroDAO : BaseDAO <Centro, int>
+    public class ConductorDAO : BaseDAO <Conductor, int>
     {
     }
 }
