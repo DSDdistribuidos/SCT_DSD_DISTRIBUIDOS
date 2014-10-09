@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cb41d9e2-fa28-4ede-a13c-c2c8075ae575" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:20001/Servicios/Centros.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Centros.xsd" MetadataType="Schema" ID="b28287c5-de13-406d-a135-f40ea6adce30" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd2" />
+    <MetadataFile FileName="Centros.disco" MetadataType="Disco" ID="c1bd8e3c-3d4d-4dfc-9c90-eb5eac291ae7" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?disco" />
+    <MetadataFile FileName="Centros1.xsd" MetadataType="Schema" ID="4f529807-e141-484e-b3e7-81c127b61afa" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd1" />
+    <MetadataFile FileName="Centros.wsdl" MetadataType="Wsdl" ID="af865c5e-e7dc-483b-88a0-d62adf4d1ca3" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?wsdl" />
+    <MetadataFile FileName="Centros2.xsd" MetadataType="Schema" ID="8971b9ae-2c9e-4182-b408-94af5a7b7227" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

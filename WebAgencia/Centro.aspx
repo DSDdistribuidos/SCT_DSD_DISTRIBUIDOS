@@ -70,6 +70,7 @@
     </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+       <h3 class="page-title">&nbsp;</h3>
        <h3 class="page-title">Centros
         <small>Listado de los Centros</small>
     </h3>
