@@ -17,6 +17,10 @@ namespace SCTServiceWCF.Dominio
         public decimal PRECIO { get; set; }
         [DataMember]
         public string MONEDA { get; set; }
+        [DataMember]
+        public string MENSAJE { get; set; }
+        [DataMember]
+        public int ERRORNUMERO { get; set; }
 
     }
 }

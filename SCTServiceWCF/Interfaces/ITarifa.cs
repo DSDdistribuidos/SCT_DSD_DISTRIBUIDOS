@@ -15,13 +15,13 @@ namespace SCTServiceWCF.Interfaces
         #region Operaciones de negocio
         //Registra un nuevo Tarifa asociado aun Sede.
         [OperationContract]
-        Tarifa RegistrarTarifa(Tarifa addTarifa);
+        Tarifa RegistrarTarifa(string NOM_TARIFA, decimal PRECIO, string MONEDA);
         [OperationContract]
-        Tarifa ModificarTarifa(Tarifa editTarifa);
+        Tarifa ModificarTarifa(int ID_TARIFA, string NOM_TARIFA, decimal PRECIO, string MONEDA);
         [OperationContract]
-        void EliminarTarifa(Tarifa deleteTarifa);
+        void EliminarTarifa(int ID_TARIFA);
         [OperationContract]
-        Tarifa ObtenerTarifa(int codigoTarifa);
+        Tarifa ObtenerTarifa(int ID_TARIFA);
         #endregion
 
         #region Metodos para la Administrar un Tarifa

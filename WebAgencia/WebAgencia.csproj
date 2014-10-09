@@ -20,6 +20,10 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -1336,6 +1340,13 @@
     <Content Include="Centro.aspx" />
     <Content Include="Conductor.aspx" />
     <Content Include="Contact.aspx" />
+    <None Include="Service References\proxyTarifas\Tarifa.disco" />
+    <None Include="Service References\proxyTarifas\configuration91.svcinfo" />
+    <None Include="Service References\proxyTarifas\configuration.svcinfo" />
+    <None Include="Service References\proxyTarifas\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Tarifa.aspx" />
     <Content Include="Empresa.aspx" />
     <None Include="Service References\proxyEmpresas\Empresas.disco" />
@@ -1369,6 +1380,19 @@
     <None Include="Service References\proxyEmpresas\WebAgencia.proxyEmpresas.Empresa.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\proxyTarifas\Tarifa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifa1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifa2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyTarifas\Tarifas.wsdl" />
+    <Content Include="Service References\proxyTarifas\WebAgencia.proxyTarifas.Tarifa.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -1426,6 +1450,11 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\proxyTarifas\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Tarifa.aspx.cs">
       <DependentUpon>Tarifa.aspx</DependentUpon>
@@ -1618,6 +1647,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\proxyEmpresas\" />
+    <WCFMetadataStorage Include="Service References\proxyTarifas\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

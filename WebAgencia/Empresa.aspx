@@ -146,7 +146,7 @@
     <div class="portlet box blue">
         <div class="portlet-title">
             <div class="caption">
-                <i class="fa fa-cube"></i>Empresa
+                <i class="fa fa-cube"></i>Tarifa
             </div>
             <div class="tools">
                 <a href="javascript:;" class="collapse"></a>
@@ -158,6 +158,10 @@
 
         <div class="portlet-body">
             <div class="table-scrollable">
+
+
+
+
     <asp:GridView ID="gvempresa" runat="server" AutoGenerateColumns="False" CellPadding="4" 
                     ForeColor="#333333" GridLines="None" Width="1512px">
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />

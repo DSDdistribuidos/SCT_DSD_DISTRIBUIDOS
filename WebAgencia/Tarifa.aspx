@@ -105,23 +105,47 @@
             <a href="#">Mantenimiento</a>
         </li>
     </ul>
-
+    <asp:Button ID="btnGrabar" 
+                        runat="server" Text="Grabar" onclick="Button1_Click" />
+       <asp:Button ID="btnModificar" 
+                        runat="server" Text="Modificar" onclick="Button3_Click"  />
+       <asp:Button ID="btnEliminar" 
+                        runat="server" Text="Eliminar" onclick="Button4_Click"  />
     <div class="panel panel-default">
         <div class="form-horizontal form-bordered">
             <div class="form-body">
                 
                 <div class="form-group">
                     <label class="col-md-3 control-label">Codigo :</label>
-                    <div class="col-md-3">
-                        <input type="text" class="form-control" />
+&nbsp;<div class="col-md-3">
+                        &nbsp;<asp:TextBox ID="txtCodigo" runat="server"></asp:TextBox> <asp:Button ID="btnConsultar" 
+                        runat="server" Text="Consultar" onclick="Button2_Click" /><br />
+                        <asp:Label ID="lblMensaje" runat="server" ForeColor="Red"></asp:Label>
+
                     </div>
-                    
                 </div>
                 
                 <div class="form-group">
                     <label class="col-md-3 control-label">Descripción :</label>
                     <div class="col-md-9">
-                        <input type="text" class="form-control" />
+                        <asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox> &nbsp;</div>
+                   
+                </div>
+
+                 <div class="form-group">
+                    <label class="col-md-3 control-label">Precio :</label>
+                    <div class="col-md-9">
+                        <asp:TextBox ID="txtPrecio" runat="server"></asp:TextBox> &nbsp;</div>
+                   
+                </div>
+
+                 <div class="form-group">
+                    <label class="col-md-3 control-label">Moneda :</label>
+                    <div class="col-md-9">
+                        &nbsp;<asp:DropDownList ID="cboMoneda" runat="server" Width="166px" >
+                            <asp:ListItem Value="S">Nuevos Soles - S/.</asp:ListItem>
+                            <asp:ListItem Value="D">Dolares - $</asp:ListItem>
+                        </asp:DropDownList>
                     </div>
                    
                 </div>
@@ -131,16 +155,47 @@
         </div>
     </div>
 
-    <div class="portlet box blue">
+     <div class="portlet box blue">
         <div class="portlet-title">
             <div class="caption">
-                <i class="fa fa-cube"></i>Tarifas
+                <i class="fa fa-cube"></i>Empresa
             </div>
             <div class="tools">
                 <a href="javascript:;" class="collapse"></a>
                 <%--<a href="#portlet-config" data-toggle="modal" class="config"></a>--%>
                 <a href="javascript:;" class="reload"></a>
                 <%--<a href="javascript:;" class="remove"></a>--%>
+            </div>
+        </div>
+
+        <div class="portlet-body">
+            <div class="table-scrollable">
+
+
+
+
+
+    <asp:GridView ID="gvtarifa" runat="server" AutoGenerateColumns="False" CellPadding="4" 
+                    ForeColor="#333333" GridLines="None" Width="1512px">
+        <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
+        <Columns>
+            <asp:BoundField DataField="ID_TARIFA" HeaderText="Código" />
+            <asp:BoundField DataField="NOM_TARIFA" HeaderText="Descripción" />
+            <asp:BoundField DataField="PRECIO" HeaderText="Precio" />
+            <asp:BoundField DataField="MONEDA" HeaderText="Moneda" />
+        </Columns>
+        <EditRowStyle BackColor="#999999" />
+        <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+        <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+        <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
+        <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
+        <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
+        <SortedAscendingCellStyle BackColor="#E9E7E2" />
+        <SortedAscendingHeaderStyle BackColor="#506C8C" />
+        <SortedDescendingCellStyle BackColor="#FFFDF8" />
+        <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
+    </asp:GridView>
+               
             </div>
         </div>
 

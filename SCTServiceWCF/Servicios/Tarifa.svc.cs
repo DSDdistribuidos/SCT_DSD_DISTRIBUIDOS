@@ -25,35 +25,36 @@ namespace SCTServiceWCF.Interfaces
         }
         #endregion
 
-        public Dominio.Tarifa RegistrarTarifa(Dominio.Tarifa addTarifa)
+        //public Dominio.Tarifa RegistrarTarifa(Dominio.Tarifa addTarifa)
+        public Dominio.Tarifa RegistrarTarifa(string NOM_TARIFA,decimal PRECIO, string MONEDA)
         {
-            Tarifa _addTarifa = new Tarifa();
-            _addTarifa.NOM_TARIFA = addTarifa.NOM_TARIFA;
-            _addTarifa.PRECIO = addTarifa.PRECIO;
-            _addTarifa.MONEDA = addTarifa.MONEDA;
+            Tarifa addTarifa = new Tarifa();
+            addTarifa.NOM_TARIFA = NOM_TARIFA;
+            addTarifa.PRECIO = PRECIO;
+            addTarifa.MONEDA = MONEDA;
             return TarifaDAO.Crear(addTarifa);
         }
 
-        public Dominio.Tarifa ModificarTarifa(Dominio.Tarifa editTarifa)
+        public Dominio.Tarifa ModificarTarifa(int ID_TARIFA,string NOM_TARIFA, decimal PRECIO, string MONEDA)
         {
-            Tarifa _addTarifa = new Tarifa();
-            _addTarifa.ID_TARIFA = editTarifa.ID_TARIFA;
-            _addTarifa.NOM_TARIFA = editTarifa.NOM_TARIFA;
-            _addTarifa.PRECIO = editTarifa.PRECIO;
-            _addTarifa.MONEDA = editTarifa.MONEDA;
+            Tarifa editTarifa = new Tarifa();
+            editTarifa.ID_TARIFA = ID_TARIFA;
+            editTarifa.NOM_TARIFA = NOM_TARIFA;
+            editTarifa.PRECIO = PRECIO;
+            editTarifa.MONEDA = MONEDA;
 
             return TarifaDAO.Modificar(editTarifa);
         }
 
-        public void EliminarTarifa(Dominio.Tarifa deleteTarifa)
+        public void EliminarTarifa(int ID_TARIFA)
         {
-            Tarifa objBungalows = TarifaDAO.Obtener(deleteTarifa.ID_TARIFA);
+            Tarifa objBungalows = TarifaDAO.Obtener(ID_TARIFA);
             TarifaDAO.Eliminar(objBungalows);
         }
 
-        public Dominio.Tarifa ObtenerTarifa(int codigoTarifa)
+        public Dominio.Tarifa ObtenerTarifa(int ID_TARIFA)
         {
-            return TarifaDAO.Obtener(codigoTarifa);
+            return TarifaDAO.Obtener(ID_TARIFA);
         }
 
         public ICollection<Dominio.Tarifa> ListarTarifa()

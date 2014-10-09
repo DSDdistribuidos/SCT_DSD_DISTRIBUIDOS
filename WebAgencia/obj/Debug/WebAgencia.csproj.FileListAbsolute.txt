@@ -15,3 +15,8 @@ F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\bin\WebAgencia.pdb
 F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.csprojResolveAssemblyReference.cache
 F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.dll
 F:\SCT_DSD_DISTRIBUIDOS-master\WebAgencia\obj\Debug\WebAgencia.pdb
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\WebAgencia\bin\WebAgencia.dll
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\WebAgencia\bin\WebAgencia.pdb
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\WebAgencia\obj\Debug\WebAgencia.csprojResolveAssemblyReference.cache
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\WebAgencia\obj\Debug\WebAgencia.dll
+C:\Users\lvalencia\Desktop\Distribuidos\SCT_DSD_DISTRIBUIDOS\WebAgencia\obj\Debug\WebAgencia.pdb
