@@ -3931,7 +3931,8 @@ wysihtml5.browser = (function() {
   var /**
        * Don't auto-link urls that are contained in the following elements:
        */
-      IGNORE_URLS_IN        = wysihtml5.lang.array(["CODE", "PRE", "A", "SCRIPT", "HEAD", "TITLE", "STYLE"]),
+      IGNORE_URLS_IN        = wysihtml5.lang.array(["CODE", "PRE", "A", "SCRIPT", "
+, "TITLE", "STYLE"]),
       /**
        * revision 1:
        *    /(\S+\.{1}[^\s\,\.\!]+)/g

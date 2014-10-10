@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="af125bc0-7869-47ae-97fe-d5ca0ead5550" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e0b2fd36-ec24-4d31-843f-dc6fb4b775d7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
@@ -21,11 +21,11 @@
     <MetadataSource Address="http://localhost:20001/Servicios/Tarifa.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Tarifa.xsd" MetadataType="Schema" ID="5243366f-a04d-4b71-9085-52663db420e3" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd2" />
-    <MetadataFile FileName="Tarifa1.xsd" MetadataType="Schema" ID="251ab42d-8428-4754-af08-357e2b6ea0b4" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd0" />
-    <MetadataFile FileName="Tarifa.disco" MetadataType="Disco" ID="8fbca74f-2528-4446-921c-8951dcfc1390" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?disco" />
-    <MetadataFile FileName="Tarifa2.xsd" MetadataType="Schema" ID="e6e78074-8517-4dc1-bbbc-9313e6e76184" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd1" />
-    <MetadataFile FileName="Tarifas.wsdl" MetadataType="Wsdl" ID="04f0a849-130b-4905-9721-bc02676ce32e" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?wsdl" />
+    <MetadataFile FileName="Tarifa.xsd" MetadataType="Schema" ID="97c5cea2-1fb9-4622-8f64-fb5543658b4d" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd2" />
+    <MetadataFile FileName="Tarifa1.xsd" MetadataType="Schema" ID="4a86afed-1e1c-474d-ba6a-1e7e543d14f8" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd0" />
+    <MetadataFile FileName="Tarifa.disco" MetadataType="Disco" ID="b8dfc94a-220c-465b-8488-9042ca4c0375" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?disco" />
+    <MetadataFile FileName="Tarifa2.xsd" MetadataType="Schema" ID="fc995a0f-c603-4823-8a9e-98400acebbc2" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd1" />
+    <MetadataFile FileName="Tarifas.wsdl" MetadataType="Wsdl" ID="7611e4c9-8286-4fc1-ae80-f3cd7e464f89" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?wsdl" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

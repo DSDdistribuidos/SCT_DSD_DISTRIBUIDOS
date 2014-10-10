@@ -121,10 +121,7 @@ namespace WebAgencia
             }
             catch (Exception ex)
             {
-
                 lblMensaje.Text = "Error obtener datos : " + ex.Message;
-
-
             }
         }
 

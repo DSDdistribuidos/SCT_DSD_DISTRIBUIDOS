@@ -1340,13 +1340,13 @@
     <Content Include="Centro.aspx" />
     <Content Include="Conductor.aspx" />
     <Content Include="Contact.aspx" />
-    <None Include="Service References\proxyTarifas\Tarifa.disco" />
-    <None Include="Service References\proxyTarifas\configuration91.svcinfo" />
-    <None Include="Service References\proxyTarifas\configuration.svcinfo" />
-    <None Include="Service References\proxyTarifas\Reference.svcmap">
+    <Content Include="Service References\proxyTarifas\Tarifa.disco" />
+    <Content Include="Service References\proxyTarifas\configuration91.svcinfo" />
+    <Content Include="Service References\proxyTarifas\configuration.svcinfo" />
+    <Content Include="Service References\proxyTarifas\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
+    </Content>
     <Content Include="Tarifa.aspx" />
     <Content Include="Empresa.aspx" />
     <None Include="Service References\proxyEmpresas\Empresas.disco" />
@@ -1389,7 +1389,7 @@
     <None Include="Service References\proxyTarifas\Tarifa2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\proxyTarifas\Tarifas.wsdl" />
+    <Content Include="Service References\proxyTarifas\Tarifas.wsdl" />
     <Content Include="Service References\proxyTarifas\WebAgencia.proxyTarifas.Tarifa.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
