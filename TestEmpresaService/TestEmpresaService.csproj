@@ -50,54 +50,118 @@
   <ItemGroup>
     <Compile Include="CentroTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service References\ServiceReference1\Reference.cs">
+    <Compile Include="EmpresaTest.cs" />
+    <Compile Include="Service References\CentroWS\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Service References\EmpresaWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TarifaWS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TarifaTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="Service References\ServiceReference1\Empresas.wsdl" />
-    <None Include="Service References\ServiceReference1\Empresas.xsd">
+    <None Include="Properties\DataSources\SCTServiceWCF.Dominio.Centro.datasource" />
+    <None Include="Properties\DataSources\SCTServiceWCF.Dominio.Empresa.datasource" />
+    <None Include="Properties\DataSources\SCTServiceWCF.Dominio.Tarifa.datasource" />
+    <None Include="Service References\CentroWS\Centros.wsdl" />
+    <None Include="Service References\CentroWS\Centros.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\Empresas1.xsd">
+    <None Include="Service References\CentroWS\Centros1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\Empresas2.xsd">
+    <None Include="Service References\CentroWS\Centros2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\ServiceReference1\TestEmpresaService.ServiceReference1.Empresa.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <WCFMetadataStorage Include="Service References\ServiceReference1\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\configuration91.svcinfo">
+    <None Include="Service References\EmpresaWS\Empresas.wsdl" />
+    <None Include="Service References\EmpresaWS\Empresas.xsd">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\configuration.svcinfo" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\ServiceReference1\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
+    <None Include="Service References\EmpresaWS\Empresas1.xsd">
+      <SubType>Designer</SubType>
     </None>
+    <None Include="Service References\EmpresaWS\Empresas2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TarifaWS\Tarifa.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TarifaWS\Tarifa1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TarifaWS\Tarifa2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\TarifaWS\Tarifas.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SCTServiceWCF\SCTServiceWCF.csproj">
       <Project>{FCB2C844-EE9C-4C1A-8855-92CA148F4BBA}</Project>
       <Name>SCTServiceWCF</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\CentroWS\" />
+    <WCFMetadataStorage Include="Service References\EmpresaWS\" />
+    <WCFMetadataStorage Include="Service References\TarifaWS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmpresaWS\Empresas.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmpresaWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmpresaWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\EmpresaWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CentroWS\Centros.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CentroWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CentroWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\CentroWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TarifaWS\Tarifa.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TarifaWS\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TarifaWS\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TarifaWS\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cf585370-7d8c-4d76-93c8-70ccc1eccac4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:20001/Servicios/Tarifa.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Tarifa.xsd" MetadataType="Schema" ID="5d07f2d6-c50f-43cf-98be-adb084231965" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd2" />
+    <MetadataFile FileName="Tarifa1.xsd" MetadataType="Schema" ID="78d540cb-026d-4f42-841c-5e9629a012d0" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd0" />
+    <MetadataFile FileName="Tarifa.disco" MetadataType="Disco" ID="3974aa9b-c146-4ac4-8066-700b92a280fe" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?disco" />
+    <MetadataFile FileName="Tarifa2.xsd" MetadataType="Schema" ID="b8e379c3-1783-4e52-8f7b-2578dbc383f7" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?xsd=xsd1" />
+    <MetadataFile FileName="Tarifas.wsdl" MetadataType="Wsdl" ID="6135cea1-f4a7-4f62-abc4-23c0a420d43c" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Tarifa.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
