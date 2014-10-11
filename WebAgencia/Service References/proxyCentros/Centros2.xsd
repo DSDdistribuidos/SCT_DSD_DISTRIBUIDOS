@@ -30,6 +30,22 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="ModificarCentro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="codigo" type="xs:int" />
+        <xs:element minOccurs="0" name="descripcion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="empresa" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ModificarCentroResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="ModificarCentroResult" nillable="true" type="q3:Centro" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="ListarCentro">
     <xs:complexType>
       <xs:sequence />
@@ -38,7 +54,7 @@
   <xs:element name="ListarCentroResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="ListarCentroResult" nillable="true" type="q3:ArrayOfCentro" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/SCTServiceWCF.Dominio" minOccurs="0" name="ListarCentroResult" nillable="true" type="q4:ArrayOfCentro" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

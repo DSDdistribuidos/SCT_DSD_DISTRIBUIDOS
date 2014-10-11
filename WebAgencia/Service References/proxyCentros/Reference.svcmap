@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cb41d9e2-fa28-4ede-a13c-c2c8075ae575" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1e6ee7b1-9e1e-407e-b107-5b0c1618a8e6" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
@@ -21,11 +21,11 @@
     <MetadataSource Address="http://localhost:20001/Servicios/Centros.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Centros.xsd" MetadataType="Schema" ID="b28287c5-de13-406d-a135-f40ea6adce30" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd2" />
-    <MetadataFile FileName="Centros.disco" MetadataType="Disco" ID="c1bd8e3c-3d4d-4dfc-9c90-eb5eac291ae7" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?disco" />
-    <MetadataFile FileName="Centros1.xsd" MetadataType="Schema" ID="4f529807-e141-484e-b3e7-81c127b61afa" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd1" />
-    <MetadataFile FileName="Centros.wsdl" MetadataType="Wsdl" ID="af865c5e-e7dc-483b-88a0-d62adf4d1ca3" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?wsdl" />
-    <MetadataFile FileName="Centros2.xsd" MetadataType="Schema" ID="8971b9ae-2c9e-4182-b408-94af5a7b7227" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd0" />
+    <MetadataFile FileName="Centros.xsd" MetadataType="Schema" ID="f9754300-3c3b-460e-9f53-bba066d5ef36" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd2" />
+    <MetadataFile FileName="Centros.disco" MetadataType="Disco" ID="29aeb167-cb58-4f69-8e36-07dfafb88b33" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?disco" />
+    <MetadataFile FileName="Centros1.xsd" MetadataType="Schema" ID="ec0f58c3-0593-42ab-8a6f-12e0e05fae68" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd1" />
+    <MetadataFile FileName="Centros.wsdl" MetadataType="Wsdl" ID="0a2fadf9-7019-4df7-824c-4cb1f518671a" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?wsdl" />
+    <MetadataFile FileName="Centros2.xsd" MetadataType="Schema" ID="70c7c157-0050-40f2-94bb-5b91d0fec007" SourceId="1" SourceUrl="http://localhost:20001/Servicios/Centros.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -1340,6 +1340,13 @@
     <Content Include="Centro.aspx" />
     <Content Include="Conductor.aspx" />
     <Content Include="Contact.aspx" />
+    <None Include="Service References\proxyCentros\Centros.disco" />
+    <None Include="Service References\proxyCentros\configuration91.svcinfo" />
+    <None Include="Service References\proxyCentros\configuration.svcinfo" />
+    <None Include="Service References\proxyCentros\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="Service References\proxyTarifas\Tarifa.disco" />
     <Content Include="Service References\proxyTarifas\configuration91.svcinfo" />
     <Content Include="Service References\proxyTarifas\configuration.svcinfo" />
@@ -1349,6 +1356,19 @@
     </Content>
     <Content Include="Tarifa.aspx" />
     <Content Include="Empresa.aspx" />
+    <None Include="Service References\proxyCentros\Centros.wsdl" />
+    <None Include="Service References\proxyCentros\Centros.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyCentros\Centros1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\proxyCentros\Centros2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="Service References\proxyCentros\WebAgencia.proxyCentros.Centro.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
     <None Include="Service References\proxyEmpresas\Empresas.disco" />
     <None Include="Service References\proxyEmpresas\configuration91.svcinfo" />
     <None Include="Service References\proxyEmpresas\configuration.svcinfo" />
@@ -1450,6 +1470,11 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\proxyCentros\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Service References\proxyTarifas\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -1646,6 +1671,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\proxyCentros\" />
     <WCFMetadataStorage Include="Service References\proxyEmpresas\" />
     <WCFMetadataStorage Include="Service References\proxyTarifas\" />
   </ItemGroup>

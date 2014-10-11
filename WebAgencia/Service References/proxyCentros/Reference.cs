@@ -225,6 +225,9 @@ namespace WebAgencia.proxyCentros {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICentros/ObtenerCentro", ReplyAction="http://tempuri.org/ICentros/ObtenerCentroResponse")]
         WebAgencia.proxyCentros.Centro ObtenerCentro(int codigo);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICentros/ModificarCentro", ReplyAction="http://tempuri.org/ICentros/ModificarCentroResponse")]
+        WebAgencia.proxyCentros.Centro ModificarCentro(int codigo, string descripcion, int empresa);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICentros/ListarCentro", ReplyAction="http://tempuri.org/ICentros/ListarCentroResponse")]
         WebAgencia.proxyCentros.Centro[] ListarCentro();
     }
@@ -262,6 +265,10 @@ namespace WebAgencia.proxyCentros {
         
         public WebAgencia.proxyCentros.Centro ObtenerCentro(int codigo) {
             return base.Channel.ObtenerCentro(codigo);
+        }
+        
+        public WebAgencia.proxyCentros.Centro ModificarCentro(int codigo, string descripcion, int empresa) {
+            return base.Channel.ModificarCentro(codigo, descripcion, empresa);
         }
         
         public WebAgencia.proxyCentros.Centro[] ListarCentro() {

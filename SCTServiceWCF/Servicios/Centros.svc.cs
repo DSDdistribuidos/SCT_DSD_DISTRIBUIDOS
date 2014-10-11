@@ -9,6 +9,7 @@ using SCTServiceWCF.Persistencia;
 using SCTServiceWCF.Dominio;
 
 
+
 namespace SCTServiceWCF.Servicios
 {
     public class Centros : ICentros
@@ -25,11 +26,24 @@ namespace SCTServiceWCF.Servicios
             }
         }
 
+        private EmpresaDAO empresaDAO = null;
+        private EmpresaDAO EmpresaDAO
+        {
+            get
+            {
+                if (empresaDAO == null)
+                    empresaDAO = new EmpresaDAO();
+                return empresaDAO;
+            }
+        }
+
         public Centro CrearCentro(string descripcion, int empresa)
         {
+            Empresa empresaExistente = EmpresaDAO.Obtener(empresa);
             Centro CentroACrear = new Centro()
             {
                 DESCRIPCION = descripcion,
+                EMPRESA = empresaExistente
             };
             return CentroDAO.Crear(CentroACrear);
         
@@ -38,6 +52,20 @@ namespace SCTServiceWCF.Servicios
         {
             return CentroDAO.Obtener(codigo);
         }
+
+        public Centro ModificarCentro(int codigo, string descripcion, int empresa)
+        {
+            Empresa empresaExistente = EmpresaDAO.Obtener(empresa);
+            Centro centroAModificar = new Centro()
+            {
+                ID_CENTRO = codigo,
+                DESCRIPCION = descripcion,
+                EMPRESA = empresaExistente
+            };
+
+            return CentroDAO.Modificar(centroAModificar);
+        }
+
         public List<Centro> ListarCentro()
         {
             return CentroDAO.ListarTodos().ToList();
